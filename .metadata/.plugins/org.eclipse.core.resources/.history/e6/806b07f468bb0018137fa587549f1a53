@@ -1,0 +1,8 @@
+package com.lucene;
+//This class is used to index the raw data so that we can make is searchable using the lucene librarys
+
+import org.apache.lucene.index.IndexWriter;
+
+public class Indexer {
+	private IndexWriter writer;
+}

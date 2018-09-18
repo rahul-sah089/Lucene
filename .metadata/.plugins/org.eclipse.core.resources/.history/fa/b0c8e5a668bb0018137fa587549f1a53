@@ -1,0 +1,12 @@
+package com.lucene;
+
+import java.io.File;
+import java.io.FileFilter;
+//This file is used to find .txt files
+public class TxtFileFilter implements FileFilter{
+
+	@Override
+	public boolean accept(File file) {
+		return file.getName().toLowerCase().endsWith(".txt");
+	}	
+}
